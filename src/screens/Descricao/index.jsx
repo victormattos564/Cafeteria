@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, Image } from "react-native";
+import { View, Text, TouchableOpacity, Image, ScrollView } from "react-native";
 
 import { useNavigation } from "@react-navigation/native";
 
@@ -8,6 +8,7 @@ export default function Descricao() {
   const navigation = useNavigation();
 
   return (
+    <ScrollView>
     <View style={styles.container}>
       <Image
         source={require("../cafe.png")}
@@ -41,6 +42,10 @@ export default function Descricao() {
         extrato de café verde e outros ingredientes que após preparo com água
         quente resulta em bebida cremosa e espumante.{" "}
       </Text>
+      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Capuccino")}>
+        <Text style={styles.navbottom}>Capuccino</Text>
+      </TouchableOpacity>
     </View>
+    </ScrollView>
   );
 }

@@ -39,6 +39,9 @@ export default function Sabores() {
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
       </View>
+      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Capuccino")}>
+        <Text style={styles.navbottom}>Capuccino</Text>
+      </TouchableOpacity>
     </ScrollView>
   );
 }

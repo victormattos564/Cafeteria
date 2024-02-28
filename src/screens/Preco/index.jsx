@@ -1,33 +1,50 @@
-import { View, Text, TouchableOpacity, Image } from 'react-native';
+import { View, Text, TouchableOpacity, Image, ScrollView } from "react-native";
 
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation } from "@react-navigation/native";
 
-import styles from './styles';
+import styles from "./styles";
 
-export default function CafePreto() {
+export default function Preco() {
   const navigation = useNavigation();
 
-
   return (
-    <View style={styles.container}>
-      <Image
-        source={require("../cafe.png")}
-        style={{ width: 300, height: 300 }}
-        className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
-      />
-      <Text style={styles.title}>Capuccino</Text>
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Sabores")}>
-        <Text style={styles.navbottom}>Sabores</Text>
-      </TouchableOpacity>
+    <ScrollView>
+      <View style={styles.container}>
+        <Image
+          source={require("../cafe.png")}
+          style={{ width: 200, height: 200 }}
+          className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
+        />
+        <Text style={styles.title2}>Preços:</Text>
 
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Descricao")}>
-        <Text style={styles.navbottom}>Descriçao</Text>
-      </TouchableOpacity>
+        <Text style={styles.title}>Cappuccino Chocolate</Text>
+        <Image
+          source={require("../cafe3.png")}
+          style={{ width: 170, height: 170 }}
+          className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
+        />
+        <Text style={styles.title2}>Preço:R$20,00</Text>
 
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Preco")}>
-        <Text style={styles.navbottom}>preço</Text>
+        <Text style={styles.title}>Cappuccino Balance</Text>
+
+        <Image
+          source={require("../cafe5.png")}
+          style={{ width: 170, height: 170 }}
+          className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
+        />
+        <Text style={styles.title2}>Preço: R$22,00 </Text>
+
+        <Text style={styles.title}>Cappuccino Baunilha</Text>
+        <Image
+          source={require("../cafe4.png")}
+          style={{ width: 170, height: 170 }}
+          className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
+        />
+         <Text style={styles.title2}>Preço:R$24,00</Text>
+         <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Capuccino")}>
+        <Text style={styles.navbottom}>Capuccino</Text>
       </TouchableOpacity>
-      
-    </View>
-  )
+      </View>
+    </ScrollView>
+  );
 }
