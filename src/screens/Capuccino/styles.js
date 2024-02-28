@@ -22,9 +22,8 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 30,
     color: "#000",
-     borderRadius: 3,
+    borderRadius: 3,
     borderBottomWidth: 3,
-    
   },
   navbottom: {
     padding: 5,

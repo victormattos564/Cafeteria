@@ -15,7 +15,7 @@ export default function Home() {
         style={{ width: 200, height: 200 }}
         className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
       />
-      <Text style={styles.title}>Victor Mattos</Text>
+      <Text style={styles.title}>Sabores</Text>
       <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Home")}>
         <Text style={styles.navbottom}>Home</Text>
       </TouchableOpacity>
