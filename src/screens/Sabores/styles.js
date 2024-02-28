@@ -24,6 +24,11 @@ const styles = StyleSheet.create({
     color: "#000",
     
   },
+  title2: {
+    fontSize: 50,
+    color: "#000",
+    
+  },
   navbottom: {
     padding: 5,
     backgroundColor: "#A9A9A9",
