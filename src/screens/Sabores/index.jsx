@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 
 import styles from "./styles";
 
-export default function Home() {
+export default function Sabores() {
   const navigation = useNavigation();
 
   return (

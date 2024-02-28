@@ -4,7 +4,7 @@ import { useNavigation } from '@react-navigation/native';
 
 import styles from './styles';
 
-export default function Home() {
+export default function Profile() {
   const navigation = useNavigation();
 
 
@@ -21,7 +21,7 @@ export default function Home() {
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Categorias")}>
-        <Text style={styles.navbottom}>Categorias</Text>
+        <Text style={styles.navbottom}>Categoria</Text>
       </TouchableOpacity>
     </View>
 
