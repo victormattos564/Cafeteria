@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
   navButton: {
     marginTop: 10,
     padding: 10,
-    backgroundColor: "#855f30",
+    backgroundColor: "#A9A9A9",
     borderRadius: 3,
 
   },
@@ -22,22 +22,14 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 30,
     color: "#000",
-    
-  },
-  title2: {
-    fontSize: 45,
-    color: "#000",
-    
-  },
-  navbottom: {
-    padding: 5,
-    backgroundColor: "#855f30",
     borderRadius: 3,
     borderBottomWidth: 3,
   },
-  Descricao: {
-    alignItems: "center",
-    judtifyContent: "center",
+  navbottom: {
+    padding: 5,
+    backgroundColor: "#A9A9A9",
+    borderRadius: 3,
+    borderBottomWidth: 3,
   }
 });
 

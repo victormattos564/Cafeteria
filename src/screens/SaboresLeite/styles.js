@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
   navButton: {
     marginTop: 10,
     padding: 10,
-    backgroundColor: "#A9A9A9",
+    backgroundColor: "#855f30",
     borderRadius: 3,
 
   },
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
   },
   navbottom: {
     padding: 5,
-    backgroundColor: "#A9A9A9",
+    backgroundColor: "#855f30",
     borderRadius: 5,
     borderBottomWidth: 3,
     

@@ -11,7 +11,7 @@ export default function PrecoCappuccino() {
     <ScrollView>
       <View style={styles.container}>
         <Image
-          source={require("../cafe.png")}
+          source={require("../../images/cafe.png")}
           style={{ width: 200, height: 200 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
@@ -19,7 +19,7 @@ export default function PrecoCappuccino() {
 
         <Text style={styles.title}>Cappuccino Chocolate</Text>
         <Image
-          source={require("../cafe3.png")}
+          source={require("../../images/cafe3.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
@@ -28,7 +28,7 @@ export default function PrecoCappuccino() {
         <Text style={styles.title}>Cappuccino Balance</Text>
 
         <Image
-          source={require("../cafe5.png")}
+          source={require("../../images/cafe5.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
@@ -36,7 +36,7 @@ export default function PrecoCappuccino() {
 
         <Text style={styles.title}>Cappuccino Baunilha</Text>
         <Image
-          source={require("../cafe4.png")}
+          source={require("../../images/cafe4.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />

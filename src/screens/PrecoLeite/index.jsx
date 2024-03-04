@@ -11,7 +11,7 @@ export default function PrecoLeite() {
     <ScrollView>
       <View style={styles.container}>
         <Image
-          source={require("../cafe.png")}
+          source={require("../../images/cafe.png")}
           style={{ width: 200, height: 200 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
@@ -19,7 +19,7 @@ export default function PrecoLeite() {
 
         <Text style={styles.title}>Vanilla Latte</Text>
         <Image
-          source={require("../Leite.png")}
+          source={require("../../images/Leite.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
@@ -28,7 +28,7 @@ export default function PrecoLeite() {
         <Text style={styles.title}>Cafe Leite</Text>
 
         <Image
-          source={require("../leite2.png")}
+          source={require("../../images/leite2.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
@@ -36,7 +36,7 @@ export default function PrecoLeite() {
 
         <Text style={styles.title}>Cappuccino Baunilha</Text>
         <Image
-          source={require("../leite3.png")}
+          source={require("../../images/leite3.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />

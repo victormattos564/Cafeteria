@@ -4,7 +4,7 @@ import { useNavigation } from '@react-navigation/native';
 
 import styles from './styles';
 
-export default function CafePreto() {
+export default function CafeEspresso() {
   const navigation = useNavigation();
 
 
@@ -15,16 +15,16 @@ export default function CafePreto() {
         style={{ width: 300, height: 300 }}
         className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
       />
-      <Text style={styles.title}>Capuccino</Text>
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("SaboresCappucino")}>
+      <Text style={styles.title}>Café Espresso</Text>
+      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("SaboresExpresso")}>
         <Text style={styles.navbottom}>Sabores</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("DescricaoCappucino")}>
+      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("DescricaoExpresso")}>
         <Text style={styles.navbottom}>Descriçao</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("PrecoCappucino")}>
+      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("PrecoExpresso")}>
         <Text style={styles.navbottom}>preço</Text>
       </TouchableOpacity>
       

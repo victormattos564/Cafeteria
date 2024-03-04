@@ -12,7 +12,7 @@ import Capuccino from "./src/screens/Capuccino/index";
 import SaboresCappucino from "./src/screens/SaboresCappucino/index";
 import DescricaoCappucino from "./src/screens/DescricaoCappucino";
 import PrecoCappucino from "./src/screens/PrecoCappucino";
-import CafeExpresso from "./src/screens/CafeExpresso";
+import CafeExpresso from "./src/components/CafeExpresso";
 import CafeLeite from "./src/screens/CafeLeite";
 import DescricaoExpresso from "./src/screens/DescricaoExpresso";
 import DescricaoLeite from "./src/screens/DescricaoLeite";
@@ -30,9 +30,10 @@ export default function App() {
           name="Home"
           component={Home}
           options={{
-            title: "Cafeteria",
+            title: "Coffe Shop",
+             
             headerStyle: {
-              backgroundColor: "#f4511e",
+              backgroundColor: "#855f30",
             },
             headerTintColor: "#000",
             headerTitleStyle: {

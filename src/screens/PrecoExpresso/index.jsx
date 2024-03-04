@@ -11,7 +11,7 @@ export default function PrecoExpresso() {
     <ScrollView>
       <View style={styles.container}>
         <Image
-          source={require("../cafe.png")}
+          source={require("../../images/cafe.png")}
           style={{ width: 200, height: 200 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
@@ -19,7 +19,7 @@ export default function PrecoExpresso() {
 
         <Text style={styles.title}>Café Expresso Supremo</Text>
         <Image
-          source={require("../expre.png")}
+          source={require("../../images/expre.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
@@ -28,7 +28,7 @@ export default function PrecoExpresso() {
         <Text style={styles.title}>Café Expresso Pleno</Text>
 
         <Image
-          source={require("../expre2.png")}
+          source={require("../../images/expre2.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
@@ -36,13 +36,13 @@ export default function PrecoExpresso() {
 
         <Text style={styles.title}>Café Expresso Colombia</Text>
         <Image
-          source={require("../expre3.png")}
+          source={require("../../images/expre3.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
          <Text style={styles.title2}>Preço:R$24,00</Text>
-         <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Capuccino")}>
-        <Text style={styles.navbottom}>Capuccino</Text>
+         <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("CafeExpresso")}>
+        <Text style={styles.navbottom}>Café Expresso</Text>
       </TouchableOpacity>
       </View>
     </ScrollView>

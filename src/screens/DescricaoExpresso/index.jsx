@@ -11,7 +11,7 @@ export default function DescricaoExpresso() {
     <ScrollView>
       <View style={styles.container}>
         <Image
-          source={require("../cafe.png")}
+          source={require("../../images/cafe.png")}
           style={{ width: 300, height: 300 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
@@ -44,9 +44,9 @@ export default function DescricaoExpresso() {
         </Text>
         <TouchableOpacity
           style={styles.navButton}
-          onPress={() => navigation.navigate("Capuccino")}
+          onPress={() => navigation.navigate("CafeExpresso")}
         >
-          <Text style={styles.navbottom}>Capuccino</Text>
+          <Text style={styles.navbottom}>Café Expresso</Text>
         </TouchableOpacity>
       </View>
     </ScrollView>

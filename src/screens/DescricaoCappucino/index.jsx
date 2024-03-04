@@ -11,7 +11,7 @@ export default function DescricaoCappucino() {
     <ScrollView>
     <View style={styles.container}>
       <Image
-        source={require("../cafe.png")}
+        source={require("../../images/cafe.png")}
         style={{ width: 300, height: 300 }}
         className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
       />
