@@ -9,11 +9,17 @@ import Categorias from "./src/screens/Categorias/index";
 import Home from "./src/screens/Home/index";
 import Profile from "./src/screens/Profile/index";
 import Capuccino from "./src/screens/Capuccino/index";
-import Sabores from "./src/screens/Sabores/index";
-import Descricao from "./src/screens/Descricao";
-import Preco from "./src/screens/Preco";
+import SaboresCappucino from "./src/screens/SaboresCappucino/index";
+import DescricaoCappucino from "./src/screens/DescricaoCappucino";
+import PrecoCappucino from "./src/screens/PrecoCappucino";
 import CafeExpresso from "./src/screens/CafeExpresso";
 import CafeLeite from "./src/screens/CafeLeite";
+import DescricaoExpresso from "./src/screens/DescricaoExpresso";
+import DescricaoLeite from "./src/screens/DescricaoLeite";
+import PrecoLeite from "./src/screens/PrecoLeite";
+import PrecoExpresso from "./src/screens/PrecoExpresso";
+import SaboresLeite from "./src/screens/SaboresLeite";
+import SaboresExpresso from "./src/screens/SaboresExpresso";
 export default function App() {
   const Stack = createNativeStackNavigator();
 
@@ -45,11 +51,24 @@ export default function App() {
 
         <Stack.Screen name="CafeLeite" component={CafeLeite} />
 
-        <Stack.Screen name="Sabores" component={Sabores} />
+        <Stack.Screen name="SaboresCappucino" component={SaboresCappucino} />
 
-        <Stack.Screen name="Descricao" component={Descricao} />
+        <Stack.Screen name="SaboresLeite" component={SaboresLeite} />
 
-        <Stack.Screen name="Preco" component={Preco} />
+        <Stack.Screen name="SaboresExpresso" component={SaboresExpresso} />
+
+        <Stack.Screen name="DescricaoCappucino" component={DescricaoCappucino}/>
+
+        <Stack.Screen name="PrecoCappucino" component={PrecoCappucino} />
+
+        <Stack.Screen name="PrecoLeite" component={PrecoLeite} />
+
+        <Stack.Screen name="PrecoExpresso" component={PrecoExpresso} />
+
+        <Stack.Screen name="DescricaoExpresso" component={DescricaoExpresso} />
+
+        <Stack.Screen name="DescricaoLeite" component={DescricaoLeite} />
+
       </Stack.Navigator>
       <StatusBar style="auto" />
     </NavigationContainer>

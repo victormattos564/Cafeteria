@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 
 import styles from "./styles";
 
-export default function Preco() {
+export default function PrecoCappuccino() {
   const navigation = useNavigation();
 
   return (

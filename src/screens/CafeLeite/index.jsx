@@ -16,15 +16,15 @@ export default function CafeLeite() {
         className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
       />
       <Text style={styles.title}>Café ao Leite</Text>
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Sabores")}>
+      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("SaboresLeite")}>
         <Text style={styles.navbottom}>Sabores</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Descricao")}>
+      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("DescricaoLeite")}>
         <Text style={styles.navbottom}>Descriçao</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Preco")}>
+      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("PrecoLeite")}>
         <Text style={styles.navbottom}>preço</Text>
       </TouchableOpacity>
       

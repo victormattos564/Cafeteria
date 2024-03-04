@@ -16,15 +16,15 @@ export default function CafePreto() {
         className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
       />
       <Text style={styles.title}>Capuccino</Text>
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Sabores")}>
+      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("SaboresCappucino")}>
         <Text style={styles.navbottom}>Sabores</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Descricao")}>
+      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("DescricaoCappucino")}>
         <Text style={styles.navbottom}>Descriçao</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Preco")}>
+      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("PrecoCappucino")}>
         <Text style={styles.navbottom}>preço</Text>
       </TouchableOpacity>
       

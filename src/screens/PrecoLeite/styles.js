@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     
   },
   title2: {
-    fontSize: 50,
+    fontSize: 45,
     color: "#000",
     
   },
@@ -34,6 +34,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#A9A9A9",
     borderRadius: 3,
     borderBottomWidth: 3,
+  },
+  Descricao: {
+    alignItems: "center",
+    judtifyContent: "center",
   }
 });
 

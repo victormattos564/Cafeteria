@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 
 import styles from "./styles";
 
-export default function Descricao() {
+export default function DescricaoCappucino() {
   const navigation = useNavigation();
 
   return (
