@@ -30,7 +30,7 @@ export default function Categorias() {
 
       <TouchableOpacity
         style={styles.navButton}
-        onPress={() => navigation.navigate("CaféEspresso")}
+        onPress={() => navigation.navigate("CafeExpresso")}
       >
         <Text style={styles.navbottom}>Café Espresso</Text>
       </TouchableOpacity>
