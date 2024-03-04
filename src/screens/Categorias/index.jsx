@@ -21,6 +21,19 @@ export default function Categorias() {
       >
         <Text style={styles.navbottom}>Capuccino</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.navButton}
+        onPress={() => navigation.navigate("CafeLeite")}
+      >
+        <Text style={styles.navbottom}>Café ao Leite</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.navButton}
+        onPress={() => navigation.navigate("CaféEspresso")}
+      >
+        <Text style={styles.navbottom}>Café Espresso</Text>
+      </TouchableOpacity>
     </View>
   );
 }

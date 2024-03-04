@@ -12,7 +12,8 @@ import Capuccino from "./src/screens/Capuccino/index";
 import Sabores from "./src/screens/Sabores/index";
 import Descricao from "./src/screens/Descricao";
 import Preco from "./src/screens/Preco";
-
+import CafeExpresso from "./src/screens/CafeExpresso";
+import CafeLeite from "./src/screens/CafeLeite";
 export default function App() {
   const Stack = createNativeStackNavigator();
 
@@ -40,12 +41,15 @@ export default function App() {
 
         <Stack.Screen name="Capuccino" component={Capuccino} />
 
+        <Stack.Screen name="CafeExpresso" component={CafeExpresso} />
+
+        <Stack.Screen name="CafeLeite" component={CafeLeite} />
+
         <Stack.Screen name="Sabores" component={Sabores} />
 
-        <Stack.Screen name="Descricao" component={Descricao} /> 
+        <Stack.Screen name="Descricao" component={Descricao} />
 
-        <Stack.Screen name="Preco" component={Preco} /> 
-
+        <Stack.Screen name="Preco" component={Preco} />
       </Stack.Navigator>
       <StatusBar style="auto" />
     </NavigationContainer>
