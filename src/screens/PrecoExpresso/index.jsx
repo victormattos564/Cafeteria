@@ -19,7 +19,7 @@ export default function PrecoExpresso() {
 
         <Text style={styles.title}>Cappuccino Chocolate</Text>
         <Image
-          source={require("../cafe3.png")}
+          source={require("../expre.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
@@ -28,7 +28,7 @@ export default function PrecoExpresso() {
         <Text style={styles.title}>Cappuccino Balance</Text>
 
         <Image
-          source={require("../cafe5.png")}
+          source={require("../expre2.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
@@ -36,7 +36,7 @@ export default function PrecoExpresso() {
 
         <Text style={styles.title}>Cappuccino Baunilha</Text>
         <Image
-          source={require("../cafe4.png")}
+          source={require("../expre.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />

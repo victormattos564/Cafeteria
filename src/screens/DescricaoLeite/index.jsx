@@ -9,43 +9,42 @@ export default function DescricaoLeite() {
 
   return (
     <ScrollView>
-    <View style={styles.container}>
-      <Image
-        source={require("../cafe.png")}
-        style={{ width: 300, height: 300 }}
-        className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
-      />
-      <Text style={styles.title}>Capuccino Chocolate</Text>
-      <Text style={styles.Descricao}>
-        Descriçao:O cappuccino solúvel 3 Corações Chocolate é cremoso, gostoso e
-        muito prático de preparar, não importa onde você estiver. Traz o melhor
-        do cappuccino clássico e sua textura com uma participação generosa de
-        cacau e o sabor irresistível do chocolate. Nesta versão em um pote de
-        200 gramas, você leva para casa um ícone da cafeteria italiana com um
-        toque brasileiro de criatividade.
-      </Text>
-      <Text style={styles.title}>Capuccino Baunilha </Text>
-      <Text style={styles.Descricao}>
-        Descriçao:Sucesso no sachê individual, o Cappuccino Baunilha ganha agora
-        sua versão pote com 200 g, concentrando ainda mais toda a gostosura do
-        Cappuccino 3 Corações com um toque de baunilha. Mistura composta de
-        leite em pó, café solúvel, cacau em pó, açúcar e outros ingredientes que
-        após preparo com água quente resulta em bebida cremosa e espumante.
-      </Text>
-      <Text style={styles.title}>Capuccino Balance</Text>
-      <Text style={styles.Descricao}>
-        Descriçao:O Cappuccino Balance da 3 Corações tem zero adição de açúcar,
-        zero lactose e ainda possui extrato de café verde em sua composição, mas
-        ainda assim mantém o sabor e a cremosidade característicos da bebida.
-        Experimente! Mistura composta de leite em pó sem lactose, maltodextrina,
-        café solúvel, cacau em pó, canela em pó, edulcorantes, aromatizante
-        extrato de café verde e outros ingredientes que após preparo com água
-        quente resulta em bebida cremosa e espumante.{" "}
-      </Text>
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Capuccino")}>
-        <Text style={styles.navbottom}>Capuccino</Text>
-      </TouchableOpacity>
-    </View>
+      <View style={styles.container}>
+        <Image
+          source={require("../cafe.png")}
+          style={{ width: 300, height: 300 }}
+          className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
+        />
+        <Text style={styles.title}>Vanilla Latte</Text>
+        <Text style={styles.Descricao}>
+          Descriçao:Vanilla Latte Starbucks é um café instantâneo premium em
+          sachês inspirado no clássico Vanilla Latte encontrado nas lojas da
+          rede. Uma bebida cremosa com a combinação perfeita de café, leite e
+          baunilha.
+        </Text>
+        <Text style={styles.title}>Café com leite </Text>
+        <Text style={styles.Descricao}>
+          Descriçao:Café com leite é a mistura entre duas bebidas famosas: café
+          e o leite, sendo uma bebida típica de Portugal e Brasil. A mistura
+          entre o café e o leite, em suas diversas variações, é uma das bebidas
+          matinais mais consumidas do mundo. Entre suas variações está o
+          cappuccino.
+        </Text>
+        <Text style={styles.title}>Café Marata</Text>
+        <Text style={styles.Descricao}>
+          Descriçao:Produzido com grãos selecionados, o Café Maratá a Vácuo 250g
+          oferece um sabor encorpado e marcante, com notas sutis de chocolate e
+          caramelo. Além disso, sua torra média proporciona um equilíbrio
+          perfeito entre acidez e amargor, tornando-o ideal para ser apreciado a
+          qualquer hora do dia.
+        </Text>
+        <TouchableOpacity
+          style={styles.navButton}
+          onPress={() => navigation.navigate("CafeLeite")}
+        >
+          <Text style={styles.navbottom}>Café Leite</Text>
+        </TouchableOpacity>
+      </View>
     </ScrollView>
   );
 }

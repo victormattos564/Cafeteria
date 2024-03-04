@@ -17,30 +17,30 @@ export default function SaboresExpresso() {
         />
         <Text style={styles.title2}>Sabores:</Text>
 
-        <Text style={styles.title}>Cappuccino Chocolate</Text>
+        <Text style={styles.title}>Café Expresso Supremo</Text>
 
         <Image
-          source={require("../cafe3.png")}
+          source={require("../expre.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
-        <Text style={styles.title}>Cappuccino Balance</Text>
+        <Text style={styles.title}>Café Expresso Pleno</Text>
 
         <Image
-          source={require("../cafe5.png")}
+          source={require("../expre2.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
         <Text style={styles.title}>Cappuccino Baunilha </Text>
 
         <Image
-          source={require("../cafe4.png")}
+          source={require("../expre3.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
       </View>
-      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Capuccino")}>
-        <Text style={styles.navbottom}>Capuccino</Text>
+      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("CafeExpresso")}>
+        <Text style={styles.navbottom}>Cafe Expresso</Text>
       </TouchableOpacity>
     </ScrollView>
   );

@@ -17,30 +17,30 @@ export default function PrecoLeite() {
         />
         <Text style={styles.title2}>Preços:</Text>
 
-        <Text style={styles.title}>Cappuccino Chocolate</Text>
+        <Text style={styles.title}>Vanilla Latte</Text>
         <Image
-          source={require("../cafe3.png")}
+          source={require("../Leite.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
-        <Text style={styles.title2}>Preço:R$20,00</Text>
+        <Text style={styles.title2}>Preço:R$28,00</Text>
 
-        <Text style={styles.title}>Cappuccino Balance</Text>
+        <Text style={styles.title}>Cafe Leite</Text>
 
         <Image
-          source={require("../cafe5.png")}
+          source={require("../leite2.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
-        <Text style={styles.title2}>Preço: R$22,00 </Text>
+        <Text style={styles.title2}>Preço: R$24,00 </Text>
 
         <Text style={styles.title}>Cappuccino Baunilha</Text>
         <Image
-          source={require("../cafe4.png")}
+          source={require("../leite3.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
-         <Text style={styles.title2}>Preço:R$24,00</Text>
+         <Text style={styles.title2}>Preço:R$19,00</Text>
          <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("CafeLeite")}>
         <Text style={styles.navbottom}>Café Leite</Text>
       </TouchableOpacity>

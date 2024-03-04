@@ -17,24 +17,24 @@ export default function SaboresLeite() {
         />
         <Text style={styles.title2}>Sabores:</Text>
 
-        <Text style={styles.title}>Cappuccino Chocolate</Text>
+        <Text style={styles.title}>Vanilla Latte</Text>
 
         <Image
-          source={require("../cafe3.png")}
+          source={require("../Leite.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
-        <Text style={styles.title}>Cappuccino Balance</Text>
+        <Text style={styles.title}>Café ao Leite</Text>
 
         <Image
-          source={require("../cafe5.png")}
+          source={require("../leite2.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
-        <Text style={styles.title}>Cappuccino Baunilha </Text>
+        <Text style={styles.title}>Café Marata </Text>
 
         <Image
-          source={require("../cafe4.png")}
+          source={require("../leite3.png")}
           style={{ width: 170, height: 170 }}
           className="inline-block h-24 rounded-full ring-2 ring-white mb-4"
         />
